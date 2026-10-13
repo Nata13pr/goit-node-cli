@@ -1,5 +1,6 @@
-const {program} = require('commander');
-const contacts = require("./contacts")
+import {program} from 'commander';
+import * as contacts from './contacts.js'
+
 
 program
     .option("-a, --action <type>", "choose action")
